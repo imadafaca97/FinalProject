@@ -1,0 +1,25 @@
+.ant-modal {
+    max-width: 1200px !important;
+    width: auto !important;
+    @media screen and (max-width: 487px) {
+      padding: 10px;
+    }
+  }
+  .ant-modal-content {
+    border-radius: 14px;
+    padding: 20px;
+    @media screen and (max-width: 487px) {
+      padding: 0px;
+    }
+  }
+  .ant-modal-confirm-title,
+  .ant-modal-title {
+    text-align: center;
+    color: dark-blue !important;
+    font-weight: 600 !important;
+  }
+  .ant-modal-header {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+  }

@@ -1,0 +1,12 @@
+
+th {
+    background-color: #4CAF50 !important;
+    color: white !important;
+    padding: 12px 0px !important;
+  }
+
+.aull-column-ant-table > tr > th {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
